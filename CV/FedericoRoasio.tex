@@ -1,0 +1,195 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\newcommand\mynobreakpar{\par\nobreak\@afterheading}
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+\usepackage[utf8]{inputenc}
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Federico Martin} % Your first name
+\familyname{Roasio} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Jorge Newbery 281}{Florencio Varela, Buenos Aires}
+\mobile{15 3168 0608}
+\phone{(011) 4255 0067}
+%\fax{(000) 111 1113}
+\email{froasio@fi.uba.ar}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Educación}
+
+\cventry{2007--2013}{Ingeniero Electrónico}{Facultad de Ingenieria de la Universidad de Buenos Aires}{Buenos Aires}{\textit{Promedio -- 9.28}}{Diploma de Honor (Título en trámite)}  % Arguments not required can be left empty
+\cventry{2002--2006}{Técnico en Equipos e Instalaciones Electromecánicas}{\newline Instituto Técnico San Juan Bautista}{Buenos Aires}{\textit{Promedio -- 9.95}}{Abanderado}
+
+\section{Tesis de Grado}
+
+\cvitem{Título}{\emph{Desarrollo de un sistema de navegación integrado aplicado a vehículos aéreos no tripulados}}
+\cvitem{Tutor}{Dr. Ing. Juan Ignacio Giribet}
+\cvitem{Descripción}{Este trabajo de tesis consistió en el diseño, la simulación, la implementación y la validación de un sistema de navegación integrado INS/GPS aplicado a vehículos
+aéreos no tripulados.}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experiencia}
+
+\cventry{2011--Presente}{Docente, Investigador, Desarrollador}{\textsc{FIUBA}}{}{}{
+Docente, investigador y desarrollador en el Laboratorio de Sistemas Embebidos de la Facultad de Ingeniería de la Universidad de Buenos Aires. 
+Mis principales tareas son el dictado de clases en cursos de grado y posgrado de programación orientada a sistemas embebidos, la publicación de trabajos científicos y 
+la realización de trabajos de consultoría para empresas de la Argentina y el exterior.
+\newline{}\newline{}
+Detalle de las tareas realizadas:
+\begin{itemize}
+\item Validación de firmware para NXP Semiconductors USA. A cargo de la coordinación general del proyecto,
+ desarrollo de tests de firmware y documentación.
+\item Docente del curso de grado “Seminario de Sistemas Embebidos”. Clases prácticas de programación en C de microcontroladores de
+la línea Cortex-M3 de ARM.
+\item Docente del curso de posgrado “Protocolos de comunicación en sistemas embebidos”. Clases teórico prácticas sobre protocolos de comunicación utilizados
+en sistemas embebidos.
+\end{itemize}}
+\cventry{}{}{}{}{}{
+\begin{itemize}
+\item Docente del workshop "Introducción a LPCXpresso" en el Simposio Argentino de Sistemas Embebidos 2012.
+\item Docente del curso de posgrado “Programación en Lenguaje C”. Clases teórico prácticas para alumnos de posgrado que buscan
+introducirse a la programación de microcontroladores en este lenguaje. 
+\end{itemize}
+\begin{itemize}
+\item Publicaciones
+\begin{itemize}
+ \item “Implementación de una biblioteca para generar interfaces gráficas de usuario en
+sistemas embebidos de bajo costo”, ETC2012.
+\item “Graphical User Interface for LPC17XX”, Nota de aplicación para NXP Semiconductors, 2011.
+\item “Diseño e Implementación de un Cuadricóptero de Vuelo Autónomo”, CASE 2012.
+\item “Interfaces gráficas de usuario en sistemas embebidos con sistemas operativos de
+  tiempo real.”, CASE 2012.
+\end{itemize}
+\end{itemize}}
+
+%------------------------------------------------
+
+\cventry{2005--Presente}{Docente}{}{}{}{Me desempeño en el dictado de clases particulares de Matemática, Física y Química,
+   para alumnos secundarios y universitarios. Adicionalmente, durante mi carrera me he desempeñado como colaborador de las materias
+   Señales y Sistemas y Circuitos Electrónicos I de la FIUBA.}
+
+%------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Distinciones}
+\cvitem{2012}{Beca de viaje, alojamiento e inscripción al TI Tech Day São Paulo 2012.}
+\cvitem{2012}{Certificado de reconocimiento de NXP, Microcontroller Business Lines.}
+\cvitem{2006}{Abanderado del Instituto Técnico San Juan Bautista.}
+\cvitem{2003}{Mención Especial -- XX Olimpíada Matemática Argentina --  XI Certamen Provincial.}
+\cvitem{2002}{Mención Especial -- XIX Olimpíada Matemática Argentina -- X Certamen Provincial.}
+\cvitem{2001}{Mención Especial -- X Olimpíada Matemática Ñandú -- Certamen Nacional.}
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Informática}
+
+\cvitem{Básico}{Pascal, Visual Basic}
+\cvitem{Intermedio}{\textsc{python}, \LaTeX, Office, OpenOffice, Windows, Linux Embebido, AutoCAD,Git, Mercurial}
+\cvitem{Avanzado}{C/C++, Microcontoladores línea ARM, Matlab, RTOS}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Idiomas}
+
+\cvitemwithcomment{Español}{Nativo}{}
+\cvitemwithcomment{Inglés}{Avanzado}{First Certificate in English -- Grade A}
+
+%----------------------------------------------------------------------------------------
+%	COURSES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Cursos}
+\cvitem{2012}{Introducción a Linux Embebido}{}
+\cvitem{2011}{Técnica digital avanzada}{}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Intereses}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Fútbol}{Tenis}
+
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

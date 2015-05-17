@@ -1,0 +1,247 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\newcommand\mynobreakpar{\par\nobreak\@afterheading}
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.78]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+\usepackage[utf8]{inputenc}
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+%\firstname{Federico} % Your first nameStufen A1
+%\familyname{Roasio} % Your last name
+% All information in this block is optional, comment out any lines you don't need
+%\title{Curriculum Vitae}
+%\age{24}
+%\dni{34.239.624}
+%\address{Jorge Newbery 281}{Florencio Varela, Buenos Aires}
+%\mobile{15 3168 0608}
+%\phone{(011) 4255 0067}
+%\fax{(000) 111 1113}
+%\email{federoasio@gmail.com}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+\makeatletter
+\renewcommand*{\makecvtitle}{%
+  % recompute lengths (in case we are switching from letter to resume, or vice versa)
+  \recomputecvlengths%
+  % optional detailed information box
+  \newbox{\makecvtitledetailsbox}%
+  \savebox{\makecvtitledetailsbox}{%
+    \addressfont\color{color2}%
+    \begin{tabular}[b]{@{}p{10cm}@{}}%
+    \ifthenelse{\isundefined{\@extrainfo}}{}{\makenewline\@extrainfo\\}%
+      \ifthenelse{\isundefined{\@addressstreet}}{}{\makenewline\addresssymbol\@addressstreet %
+        \ifthenelse{\equal{\@addresscity}{}}{}{\makenewline\@addresscity}} % if \addresstreet is defined, \addresscity will always be defined but could be empty
+      \ifthenelse{\isundefined{\@mobile}}{}{\makenewline\mobilesymbol\@mobile} %
+      \ifthenelse{\isundefined{\@phone}}{}{\makenewline\phonesymbol\@phone}%
+      \ifthenelse{\isundefined{\@fax}}{}{\makenewline\faxsymbol\@fax}%
+      \ifthenelse{\isundefined{\@email}}{}{\makenewline\emailsymbol\emaillink{\@email}}%
+      \ifthenelse{\isundefined{\@homepage}}{}{\makenewline\homepagesymbol\httplink{\@homepage}}%
+    \end{tabular}
+  }%
+  % optional photo (pre-rendering)
+  \newbox{\makecvtitlepicturebox}%
+  \savebox{\makecvtitlepicturebox}{%
+    \ifthenelse{\isundefined{\@photo}}%
+    {}%
+    {%
+      %\hspace*{2cm}%
+      %\color{color1}%
+      %\setlength{\fboxrule}{\@photoframewidth}%
+      %\ifdim\@photoframewidth=0pt%
+      %  \setlength{\fboxsep}{0pt}\fi%
+      %\framebox{\includegraphics[width=\@photowidth]{\@photo}}
+      }
+      }%
+  % name and title
+  \newlength{\makecvtitledetailswidth}\settowidth{\makecvtitledetailswidth}{\usebox{\makecvtitledetailsbox}}%
+  \newlength{\makecvtitlepicturewidth}\settowidth{\makecvtitlepicturewidth}{\usebox{\makecvtitlepicturebox}}%
+  \ifthenelse{\lengthtest{\makecvtitlenamewidth=0pt}}% check for dummy value (equivalent to \ifdim\makecvtitlenamewidth=0pt)
+    {\setlength{\makecvtitlenamewidth}{\textwidth-\makecvtitlepicturewidth
+}}%
+    {}%
+ % \begin{minipage}[b]{\makecvtitlenamewidth}%
+    \raggedright\namestyle{{\color{color2!50}\@firstname} {\color{color2}\@familyname} {| \color{color2!50}Resume}}\par\medskip%
+    \ifthenelse{\equal{\@title}{}}{\vskip-25pt}{{\centering\titlestyle{\@title}\par}\medskip}%
+  %\hfill%
+  % detailed information
+%  \llap{
+%\namefont{\color{color2!50}\@firstname} {\color{color2}\@familyname}}
+\usebox{\makecvtitledetailsbox}%
+%\end{minipage}\ignorespaces%
+%}% \llap is used to suppress the width of the box, allowing overlap if the value of makecvtitlenamewidth is forced
+  % optional photo (rendering)
+  \usebox{\makecvtitlepicturebox}\\[2.5em]%
+  % optional quote
+  \ifthenelse{\isundefined{\@quote}}%
+    {}%
+    {{\centering\begin{minipage}{\quotewidth}\centering\quotestyle{\@quote}\end{minipage}\\[2.5em]}}%
+  \par}% to avoid weird spacing bug at the first section if no blank line is left after \makecvtitle
+\makeatother
+
+\photo[100pt]{pictures/picture}
+\firstname{Federico Martin}
+\familyname{Roasio}
+\address{Uspallata 676 6A (C1143ACF)}{Ciudad Autónoma de Buenos Aires, Argentina}    
+\mobile{+54 911 3168 0608}
+\phone{+54 11 4361 4468}                
+\email{federoasio@gmail.com}
+\title{ }
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2007--2013}{Electronic Engineer}{School of Engineering, University of Buenos aires}{Buenos Aires, Argentina}{\textit{GPA Equivalent -- 3.92}}{Elegible for Gold Medal and Honorary Diploma}  % Arguments not required can be left empty
+
+\subsection{Thesis}
+
+\cvitem{Title}{\emph{Integrated Navigation Systems applied to Unmaned Aerial Vehicles}}
+\cvitem{Supervisor}{PhD. Juan Ignacio Giribet}
+\cvitem{Description}{ The thesis was focused on the design, simulation, implementation and validation of a GPS/INS integrated navigation system applied to unmanned aerial vehicles.
+}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\cventry{2012--Present}{Signal Processing, System Identification and Automatic Control Theory Lab}{\textsc{School of Engineering, University of Buenos Aires}}{}{}{
+Reasearch assistant and developer in aerospace applications.
+\newline{}\newline{}
+Duties:
+\begin{itemize}
+\item GN\&C researcher and developer for CoNAE's VEx series of suborbital rockets, under a collaboration agreement between CoNAE and GPSIC-FIUBA.
+\end{itemize}}
+
+%------------------------------------------------
+
+\cventry{2013--Present}{Oneloop Digital Agency}{\textsc{}}{}{}{
+Oneloop is a fast growing startup software company focused on real-estate web apps.
+\newline{}\newline{}
+Duties:
+\begin{itemize}
+\item Software Arquitect.
+\item Backend and Frontend Web developer.
+\item UX developer.
+\end{itemize}
+}
+
+%------------------------------------------------
+
+\cventry{2011--2013}{Embedded Systems Lab}{\textsc{School of Engineering, University of Buenos Aires}}{}{}{
+Teaching assistant, research assistant and developer in microcontroller applications.
+\newline{}\newline{}
+Duties:
+\begin{itemize}
+\item Firmware Validation for NXP Semiconductors USA unreleased products.
+\item Teaching assistant at Introduction to Embedded Systems.
+\item Teaching assistant at Introduction to Real Time Operative Systems.
+\item Teaching assistant at Introduction to C Programming Language.
+\item Teaching assistant at Communication Protocols for Embedded Systems. 
+\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Language}
+
+\cvitemwithcomment{Spanish}{Mother Tongue}{}
+\cvitemwithcomment{English}{Advanced}{First Certificate in English -- Grade A}
+\cvitemwithcomment{Deutsch}{Basic}{A1 Level}
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\section{Skills}
+
+\cvitem{Basic}{Pascal, Visual Basic, Ruby, AutoCAD, CAD/CAM, Agile Development}
+\cvitem{Intermedio}{\textsc{python}, javascript, jQuery, MySQL, HTML5, CSS3, Embedded Linux, PCB Design}
+\cvitem{Avanzado}{C/C++, PHP, Matlab/Octave, Git, Mercurial, ARM Microcontrollers, RTOS, \LaTeX}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Scholarships and Awards}
+\cvitem{2012-2013}{Scholarship awarded by the National Agency for Promotion of Science
+and Technology (Becas TICs, ANPCyT).}
+\cvitem{2012}{Schorlarship awarded by Texas Instruments Inc. to assist to Tech Day São Paulo 2012.}
+\cvitem{2012}{Certificate of Recognition from NXP Semiconductors USA, Microcontroller Business Lines.}
+\cvitem{2001-2006}{Argentine representative of international mathematics tournaments, like the International Mathematics Tournament of the Towns, the Asian Pacific Mathematics Olympiad and Olimpíada de Mayo. Preselected as
+representative of the Iberoamerican Mathematical Olympiad and the International Mathematical Olympiad. National and Regional Distinctions in the Argentine Mathematical Olympiads.}
+
+%----------------------------------------------------------------------------------------
+%	PAPERS SECTION
+%----------------------------------------------------------------------------------------
+\section{Publications}
+\cvitem{2012}{Graphical User Interface Library for low cost embedded systems. ETC2012 (Costa Rica).}
+\cvitem{2012}{Design and Implementation of an unmanned Quadcopter, CASE 2012.}
+\cvitem{2012}{Graphical User Interfaces for Embedded Systems with Real Time Operative Systems, CASE 2012.}
+\cvitem{2011}{Graphical User Interface for LPC17XX, Application Note for NXP Semiconductors USA.}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
