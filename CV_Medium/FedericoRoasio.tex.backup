@@ -156,15 +156,6 @@ Detalle de las tareas realizadas:
 \item Mantenimiento de infraestructura de servidores, servicios de DNS y CDN en la nube.
 \end{itemize}}
 
-\cventry{2014 -- Presente}{Ayudante de primera}{\textsc{Algoritmos y Programacion I, FIUBA}}{}{}{
-Dictado de clases prácticas de algoritmos y programación en lenguaje C para alumnos de Ingeniería Electrónica de la Universidad de Buenos Aires.
-\newline{}
-Detalle de las tareas realizadas:
-\begin{itemize}
-\item Desarrollo de ejercicios de algoritmos, programación en lenguaje C y buenas prácticas de diseño de software.
-\item Corrección de ejercicios y trabajos prácticos.
-\end{itemize}}
-
 \cventry{2012 -- Presente}{Desarrollador, Investigador}{\textsc{CONAE-FIUBA}}{}{}{Desarrollador e investigador en el Grupo de Procesamiento de Señales, Identificación y Control.
 \newline{}
 Detalle de las tareas realizadas:
@@ -182,7 +173,7 @@ Detalle de las tareas realizadas:
 \item Ingeniería básica y de detalle de proyectos de robótica industrial.
 \item Desarrollo de especificaciones técnicas, contacto con proveedores.
 \item Integración de sectores de producción, mantenimiento y seguridad en el desarrollo de proyectos.
-\item Global Trainee Program. 
+\item Global Trainee Program. Capacitación en Procesos Productivos, Calidad, Compras, Supply Chain, Ventas y Marketing, Management, Comunicación, Administración y Finanzas.
 \end{itemize}}
 
 \cventry{2013 -- 2014}{Desarrollador Web}{\textsc{Oneloop Digital Agency}}{}{}{
@@ -229,8 +220,8 @@ para alumnos secundarios y universitarios.}
 %----------------------------------------------------------------------------------------
 \section{Conocimientos Generales}
 
-\cvitem{Básico}{Pascal, Visual Basic, Ruby, AutoCAD, CAD/CAM, PLC, Diseño PCB}
-\cvitem{Intermedio}{\textsc{python}, javascript, jQuery, MySQL, HTML5, CSS3, Metodologías Ágiles, Linux Embebido}
+\cvitem{Básico}{Pascal, Visual Basic, Ruby, AutoCAD, CAD/CAM, PLC, Metodologías Ágiles}
+\cvitem{Intermedio}{\textsc{python}, javascript, jQuery, MySQL, HTML5, CSS3, Linux Embebido, Diseño PCB}
 \cvitem{Avanzado}{C/C++, PHP, Git, Mercurial, Microcontoladores línea ARM, Matlab/Octave, RTOS, \LaTeX}
 
 %----------------------------------------------------------------------------------------
@@ -238,7 +229,6 @@ para alumnos secundarios y universitarios.}
 %----------------------------------------------------------------------------------------
 
 \section{Distinciones}
-\cvitem{2014}{Mejor egresado de la Facultad de Ingeniería de la Universidad de Buenos Aires, Academia Nacional de Ingeniería}
 \cvitem{2013}{2do Puesto, Premio Pre Ingenería 2013, Centro Argentino de Ingenieros}
 \cvitem{2012}{Beca de viaje, alojamiento e inscripción al TI Tech Day São Paulo 2012.}
 \cvitem{2012}{Certificado de reconocimiento de NXP, Microcontroller Business Lines.}
@@ -259,10 +249,6 @@ Olimpíada Iberoamericana de Matemática y de la Olimpíada Internacional de Mat
 %----------------------------------------------------------------------------------------
 
 \section{Cursos}
-\cvitem{2015}{Algorithms: Design and Analysis, Part II -- Coursera.org}
-\cvitem{2015}{Algorithms: Design and Analysis, Part I -- Coursera.org}
-\cvitem{2014}{Tenaris University Induction Camp}
-\cvitem{}{- \slshape{Capacitación intensiva internacional en Procesos Productivos, Calidad, Compras, Supply Chain, Ventas y Marketing, Management, Comunicación, Administración y Finanzas.}}
 \cvitem{2014}{Machine Learning -- Coursera.org}
 \cvitem{2013}{Introducción a DSP}
 \cvitem{}{- \slshape{Carrera de Especialización en Sistemas Embebidos, UBA. (res. 4916/12).}}
@@ -287,7 +273,6 @@ problemas matemáticos de nivel internacional. Tutora: Lic. Marta Lance.}}
 %	PAPERS SECTION
 %----------------------------------------------------------------------------------------
 \section{Publicaciones}
-\cvitem{2012}{Diseño de una computadora de navegación, guiado y control:Aplicación a un vehículo aéreo no tripulado. VIII Jornadas Argentinas de Robótica.}
 \cvitem{2012}{Implementación de una biblioteca para generar interfaces gráficas de usuario en
 sistemas embebidos de bajo costo. ETC2012 (Costa Rica).}
 \cvitem{2012}{Diseño e Implementación de un Cuadricóptero de Vuelo Autónomo, CASE 2012.}
