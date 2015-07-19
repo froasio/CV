@@ -149,14 +149,13 @@
 \section{Experience}
 
 \cventry{2015--Present}{Senior Software Engineer}{\textsc{Sumaprop - Oneloop Digital Agency}}{}{}{
-Sumaprop is the \#1 Real Estate CRM in Argentina, currently expanding to Latin America.
+Sumaprop is a Real Estate CRM \#1 in Argentina and currently expanding to Latin America.
 \newline{}\newline{}
 Duties:
 \begin{itemize}
-\item Project Management using Agile Methodologies. Scrum and Kanban.
+\item Project Management using Agile Methodologies.
 \item Fullstack web developer. PHP, AngularJS and jQuery, MySQL.
 \item Cloud computing infrastructure maintenance in Rackspace. Cloud Servers, DNS and CDN services.
-\item Analytics and Customer Engagement implementation. Mixpanel, Intercom, Google Analytics.
 \end{itemize}}
 
 %------------------------------------------------
@@ -178,18 +177,6 @@ Duties:
 \begin{itemize}
 \item GN\&C researcher and developer for CoNAE's VEx series of suborbital rockets, under a collaboration agreement between CoNAE and GPSIC-FIUBA.
 \end{itemize}}
-
-%------------------------------------------------
-
-\cventry{2014--Present}{Co-Founder}{\textsc{Condor IT}}{}{}{
-Condor IT is a recently born software house. Founded by a group of high talented computer science engineers its main target is to become a local reference in software design and development.
-\newline{}\newline{}
-Duties:
-\begin{itemize}
-\item Project definition, planning and quotation, customer support.
-\item Fullstack software developer. Java (Play Framework), Angular JS, Amazon Web Services.
-\end{itemize}}
-
 
 %------------------------------------------------
 \cventry{2014--2015}{Automation Engineer}{\textsc{Tenaris}}{}{}{
@@ -242,7 +229,7 @@ Duties:
 \section{Skills}
 
 \cvitem{Basic}{Java, Play! Framework, Ruby, AutoCAD, PCB Design}
-\cvitem{Intermedio}{\textsc{python}, javascript, jQuery, MySQL, HTML5, CSS3, Embedded Linux, Agile Development, TDD}
+\cvitem{Intermedio}{\textsc{python}, javascript, jQuery, MySQL, HTML5, CSS3, Embedded Linux, Agile Development}
 \cvitem{Avanzado}{C/C++, PHP, Matlab/Octave, Git, Mercurial, ARM Microcontrollers, RTOS, \LaTeX}
 
 %----------------------------------------------------------------------------------------
