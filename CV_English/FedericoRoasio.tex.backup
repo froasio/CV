@@ -119,7 +119,7 @@
 \mobile{+54 911 3168 0608}
 \phone{+54 11 4361 4468}                
 \email{federoasio@gmail.com}
-\extrainfo{Argentine and Italian Citizenship}
+\extrainfo{Argentine and Italian Citizenship (EU Passport)}
 \title{ }
 %----------------------------------------------------------------------------------------
 
@@ -133,7 +133,7 @@
 
 \section{Education}
 
-\cventry{2007--2013}{Electronic Engineer}{School of Engineering, University of Buenos aires}{Buenos Aires, Argentina}{\textit{GPA Equivalent -- 3.92}}{Elegible for Gold Medal and Honorary Diploma}  % Arguments not required can be left empty
+\cventry{2007--2013}{Electronic Engineer (MSc equivalent)}{School of Engineering, University of Buenos Aires}{Argentina}{\textit{GPA Equivalent -- 3.92}}{Elegible for Gold Medal and Honorary Diploma (Top 1\%)}  % Arguments not required can be left empty
 
 \subsection{Thesis}
 
@@ -148,38 +148,53 @@
 
 \section{Experience}
 
-\cventry{2015--Present}{Senior Software Engineer}{\textsc{Sumaprop - Oneloop Digital Agency}}{}{}{
-Sumaprop is a Real Estate CRM \#1 in Argentina and currently expanding to Latin America.
+\cventry[0.5em]{2015--Present}{Senior Software Engineer}{\textsc{Sumaprop - Oneloop Digital Agency}}{}{}{
+Sumaprop is the \#1 Real Estate CRM in Argentina, currently expanding to Latin America.
 \newline{}\newline{}
 Duties:
 \begin{itemize}
-\item Project Management using Agile Methodologies.
-\item Fullstack web developer. PHP, AngularJS and jQuery, MySQL.
-\item Cloud computing infrastructure maintenance in Rackspace. Cloud Servers, DNS and CDN services.
+\item Technical leadership and project management using Agile Methodologies. Scrum and Kanban.
+\item Fullstack web applications development. PHP, Laravel, AngularJS and jQuery, MySQL.
+\item Mobile applications development for Android and iOS using Ionic.
+\item Cloud infrastructure set up and maintenance in Rackspace. Cloud Servers, Load Balancers, DNS and CDN services.
 \end{itemize}}
 
 %------------------------------------------------
 
-\cventry{2014--Present}{Graduate Teaching Assistant}{\textsc{School of Engineering, University of Buenos Aires}}{}{}{
-Graduate Teaching Assistant in Algorithms and Programming I.
+\cventry[0.5em]{2014--Present}{Graduate Teaching Assistant}{\textsc{School of Engineering, University of Buenos Aires}}{}{}{
+Graduate Teaching Assistant in Algorithms and Programming I, first course on algorithms and programming for Electrical Engineering students.
 \newline{}\newline{}
 Duties:
 \begin{itemize}
-\item Practical classes for the resolution of exercises on algorithms, programming in C language and good software design practices.
+\item Resolution of exercises on algorithms, programming in C language and good software design practices. Syllabus: C programming basics, Bitwise Operators, Structures, Dynamic Memory, Files, Recursion, Divide and Conquer, Sorting, Searching, Abstract Data Types, Lists, OOP introduction. 
 \end{itemize}}
 
 %------------------------------------------------
 
-\cventry{2012--Present}{Guidance, Navigation and Control Researcher and Developer}{\textsc{Signal Processing, System Identification and Automatic Control Theory Lab, University of Buenos Aires}}{}{}{
-Reasearch assistant and developer in aerospace applications.
+\cventry[0.5em]{2015--Present}{External Technical Consultant}{\textsc{Debmedia}}{}{}{
+Debmedia is a software company focused in customer experience management.
 \newline{}\newline{}
 Duties:
 \begin{itemize}
-\item GN\&C researcher and developer for CoNAE's VEx series of suborbital rockets, under a collaboration agreement between CoNAE and GPSIC-FIUBA.
+\item Physical web development using Estimote beacons.
+\item Fullstack software developer using Java (Play! Framework), Angular JS, Amazon Web Services.
+\item New products development.
 \end{itemize}}
 
 %------------------------------------------------
-\cventry{2014--2015}{Automation Engineer}{\textsc{Tenaris}}{}{}{
+
+\cventry[0.5em]{2012--2015}{Guidance, Navigation and Control Researcher and Developer}{\textsc{Signal Processing, System Identification and Automatic Control Theory Lab (GPSIC), University of Buenos Aires}}{}{}{
+GN\&C researcher and developer for CoNAE's VEx series of suborbital rockets, under a collaboration agreement between CoNAE (Argentine Space Agency) and GPSIC-FIUBA.
+\newline{}\newline{}
+Duties:
+\begin{itemize}
+\item Development of integrated navigation systems for suborbital rockets in C/C++. Real time data fusion with Kalman filters using multiple sensors, including accelerometers, gyroscopes, magnetometers and GPS.
+\item Development of a distributed system to collect data from more than 15 sensors in real time using concurrent programming in C under a Linux platform.
+\end{itemize}}
+
+
+%------------------------------------------------
+\cventry[0.5em]{2014--2015}{Automation Engineer}{\textsc{Tenaris}}{}{}{
 Automation Engineer focused in design and development of new robotic cells to automate steel pipes manufacturing industry.
 \newline{}\newline{}
 Duties:
@@ -190,8 +205,8 @@ Duties:
 \end{itemize}}
 
 %------------------------------------------------
-\cventry{2013--2014}{Software Engineer}{\textsc{Oneloop Digital Agency}}{}{}{
-Oneloop is a fast growing startup software company focused on real-estate web apps.
+\cventry[0.5em]{2013--2014}{Software Engineer}{\textsc{Oneloop Digital Agency}}{}{}{
+Oneloop is a fast growing SaaS company focused on real-estate web apps.
 \newline{}\newline{}
 Duties:
 \begin{itemize}
@@ -202,16 +217,13 @@ Duties:
 
 %------------------------------------------------
 
-\cventry{2011--2013}{Teaching assistant, research assistant and developer}{\textsc{Embedded Systems Lab, University of Buenos Aires}}{}{}{
-Teaching assistant, research assistant and developer in microcontroller applications.
+\cventry[0.5em]{2011--2013}{Teaching assistant, research assistant and developer}{\textsc{Embedded Systems Lab, University of Buenos Aires}}{}{}{
+Teaching assistant, research assistant and microcontroller applications developer.
 \newline{}\newline{}
 Duties:
 \begin{itemize}
 \item Firmware Validation for NXP Semiconductors USA unreleased products.
-\item Teaching assistant at Introduction to Embedded Systems.
-\item Teaching assistant at Introduction to Real Time Operative Systems.
-\item Teaching assistant at Introduction to C Programming Language.
-\item Teaching assistant at Communication Protocols for Embedded Systems. 
+\item Teaching assistant at Introduction to Embedded Systems, Introduction to Real Time Operative Systems, Communication Protocols for Embedded Systems and Introduction to C Programming Language.
 \end{itemize}}
 
 %----------------------------------------------------------------------------------------
@@ -228,9 +240,9 @@ Duties:
 %----------------------------------------------------------------------------------------
 \section{Skills}
 
-\cvitem{Basic}{Java, Play! Framework, Ruby, AutoCAD, PCB Design}
-\cvitem{Intermedio}{\textsc{python}, javascript, jQuery, MySQL, HTML5, CSS3, Embedded Linux, Agile Development}
-\cvitem{Avanzado}{C/C++, PHP, Matlab/Octave, Git, Mercurial, ARM Microcontrollers, RTOS, \LaTeX}
+\cvitem{*}{Python, Scala, MongoDB, Firebase Authentication and Database, Facebook APIs}
+\cvitem{**}{Laravel, Angular JS, javascript, jQuery, MySQL, HTML5, CSS3, Embedded Linux, Agile Development, Java, Play! Framework}
+\cvitem{***}{C/C++, PHP, Matlab/Octave, Git, ARM Microcontrollers, RTOS, \LaTeX}
 
 %----------------------------------------------------------------------------------------
 %	AWARDS SECTION
