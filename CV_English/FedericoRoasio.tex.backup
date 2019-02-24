@@ -115,9 +115,8 @@
 \photo[100pt]{pictures/picture}
 \firstname{Federico Martin}
 \familyname{Roasio}
-\address{Uspallata 676 6A (C1143ACF)}{Ciudad Autónoma de Buenos Aires, Argentina}    
-\mobile{+54 911 3168 0608}
-\phone{+54 11 4361 4468}                
+\address{Uspallata 662 4A (C1143ACF), Buenos Aires, Argentina}{}    
+\mobile{+54 911 3168 0608}                
 \email{federoasio@gmail.com}
 \extrainfo{Argentine and Italian Citizenship (EU Passport)}
 \title{ }
@@ -148,8 +147,29 @@
 
 \section{Experience}
 
-\cventry[0.5em]{2015--Present}{Senior Software Engineer}{\textsc{Sumaprop - Oneloop Digital Agency}}{}{}{
-Sumaprop is the \#1 Real Estate CRM in Argentina, currently expanding to Latin America.
+\cventry[0.5em]{2018--Present}{Technical Project Lead}{\textsc{MercadoLibre \& MercadoPago}}{}{}{
+Leading core backend on Account team at MercadoPago. Over \$17 billion payment transactions in 2018 for more than 120 million users.
+\newline{}\newline{}
+Duties:
+\begin{itemize}
+\item Microservices architecture design and implementation using message queues, key value stores, relational databases and document search engines.
+\item Follow up of quaterly objetives, new hirings onboarding process, 1:1 feedbacks, salary reviews and promotions proposals.
+\item Technical and cultural interviews.
+\item Organization of tech workshops for the community.
+\item On call rotation strategy definition and execution.
+\end{itemize}}
+%------------------------------------------------
+
+\cventry[0.5em]{2014--Present}{Head of Teaching Assistant}{\textsc{School of Engineering, University of Buenos Aires}}{}{}{
+Head of Teaching Assistant in Algorithms and Programming I, first course on algorithms and programming for Electrical Engineering students.
+\newline{}\newline{}
+Duties:
+\begin{itemize}
+\item Resolution of exercises on algorithms, programming in C language and good software design practices. Syllabus: C programming basics, Bitwise Operators, Structures, Dynamic Memory, Files, Recursion, Divide and Conquer, Sorting, Searching, Abstract Data Types, Lists, OOP introduction. 
+\end{itemize}}
+
+\cventry[0.5em]{2015--2018}{Head of Engineering \& Infrastructure}{\textsc{Sumaprop}}{}{}{
+Sumaprop is the \#1 Real Estate SaaS CRM in Argentina, currently expanding to Latin America. Adquired by Navent Group in 2019.
 \newline{}\newline{}
 Duties:
 \begin{itemize}
@@ -157,28 +177,6 @@ Duties:
 \item Fullstack web applications development. PHP, Laravel, AngularJS and jQuery, MySQL.
 \item Mobile applications development for Android and iOS using Ionic.
 \item Cloud infrastructure set up and maintenance in Rackspace. Cloud Servers, Load Balancers, DNS and CDN services.
-\end{itemize}}
-
-%------------------------------------------------
-
-\cventry[0.5em]{2014--Present}{Graduate Teaching Assistant}{\textsc{School of Engineering, University of Buenos Aires}}{}{}{
-Graduate Teaching Assistant in Algorithms and Programming I, first course on algorithms and programming for Electrical Engineering students.
-\newline{}\newline{}
-Duties:
-\begin{itemize}
-\item Resolution of exercises on algorithms, programming in C language and good software design practices. Syllabus: C programming basics, Bitwise Operators, Structures, Dynamic Memory, Files, Recursion, Divide and Conquer, Sorting, Searching, Abstract Data Types, Lists, OOP introduction. 
-\end{itemize}}
-
-%------------------------------------------------
-
-\cventry[0.5em]{2015--Present}{External Technical Consultant}{\textsc{Debmedia}}{}{}{
-Debmedia is a software company focused in customer experience management.
-\newline{}\newline{}
-Duties:
-\begin{itemize}
-\item Physical web development using Estimote beacons.
-\item Fullstack software developer using Java (Play! Framework), Angular JS, Amazon Web Services.
-\item New products development.
 \end{itemize}}
 
 %------------------------------------------------
@@ -210,9 +208,7 @@ Oneloop is a fast growing SaaS company focused on real-estate web apps.
 \newline{}\newline{}
 Duties:
 \begin{itemize}
-\item Software Arquitect.
-\item Backend and Frontend Web developer.
-\item UI developer.
+\item Backend and Frontend Web developer using PHP, javascript, jQuery, MySQL.
 \end{itemize}}
 
 %------------------------------------------------
@@ -222,7 +218,7 @@ Teaching assistant, research assistant and microcontroller applications develope
 \newline{}\newline{}
 Duties:
 \begin{itemize}
-\item Firmware Validation for NXP Semiconductors USA unreleased products.
+\item Firmware Validation of unreleased products for NXP Semiconductors USA.
 \item Teaching assistant at Introduction to Embedded Systems, Introduction to Real Time Operative Systems, Communication Protocols for Embedded Systems and Introduction to C Programming Language.
 \end{itemize}}
 
@@ -234,28 +230,26 @@ Duties:
 
 \cvitemwithcomment{Spanish}{Mother Tongue}{}
 \cvitemwithcomment{English}{Advanced}{First Certificate in English -- Grade A}
-\cvitemwithcomment{Deutsch}{Basic}{A1 Level}
+
 %----------------------------------------------------------------------------------------
 %	COMPUTER SKILLS SECTION
 %----------------------------------------------------------------------------------------
-\section{Skills}
+\section{Tools \& Technologies}
 
-\cvitem{*}{Python, Scala, MongoDB, Firebase Authentication and Database, Facebook APIs}
-\cvitem{**}{Laravel, Angular JS, javascript, jQuery, MySQL, HTML5, CSS3, Embedded Linux, Agile Development, Java, Play! Framework}
-\cvitem{***}{C/C++, PHP, Matlab/Octave, Git, ARM Microcontrollers, RTOS, \LaTeX}
+\cvitem{}{C/C++, Golang, PHP, Javascript, Java, MySQL, Oracle, Cassandra, Firebase, Rackspace, AWS, Git, New Relic, Datadog, Jira, Opsgenie, HTML5, CSS3, Embedded Linux, Matlab/Octave, \LaTeX}
 
 %----------------------------------------------------------------------------------------
 %	AWARDS SECTION
 %----------------------------------------------------------------------------------------
 
 \section{Scholarships and Awards}
-\cvitem{2014}{Best graduate of Engineering Careers from the University of Buenos Aires, National Academy of Engineering, Argentina}
+\cvitem{2014}{Best graduate of all Engineering Careers from the University of Buenos Aires, National Academy of Engineering, Argentina}
 \cvitem{2013}{2nd prize to the best graduate thesis in Engineering, "Premio Pre Ingeniería 2013", Argentine Center of Engineers}
 \cvitem{2012-2013}{Scholarship awarded by the National Agency for Promotion of Science
 and Technology (Becas TICs, ANPCyT).}
 \cvitem{2012}{Schorlarship awarded by Texas Instruments Inc. to assist to Tech Day São Paulo 2012.}
 \cvitem{2012}{Certificate of Recognition from NXP Semiconductors USA, Microcontroller Business Lines.}
-\cvitem{2001-2006}{Argentine representative of international mathematics tournaments, like the International Mathematics Tournament of the Towns, the Asian Pacific Mathematics Olympiad and Olimpíada de Mayo. Preselected as
+\cvitem{2001-2006}{Argentine representative of international mathematical tournaments, like the International Mathematical Tournament of the Towns, the Asian Pacific Mathematics Olympiad and Olimpíada de Mayo. Preselected as
 representative of the Iberoamerican Mathematical Olympiad and the International Mathematical Olympiad. National and Regional Distinctions in the Argentine Mathematical Olympiads.}
 
 %----------------------------------------------------------------------------------------
@@ -267,27 +261,5 @@ representative of the Iberoamerican Mathematical Olympiad and the International 
 \cvitem{2012}{Design and Implementation of an unmanned Quadcopter, CASE 2012.}
 \cvitem{2012}{Graphical User Interfaces for Embedded Systems with Real Time Operative Systems, CASE 2012.}
 \cvitem{2011}{Graphical User Interface for LPC17XX, Application Note for NXP Semiconductors USA.}
-
-%----------------------------------------------------------------------------------------
-%	COVER LETTER
-%----------------------------------------------------------------------------------------
-
-% To remove the cover letter, comment out this entire block
-
-%\clearpage
-
-%\recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
-%\date{\today} % Letter date
-%\opening{Dear Sir or Madam,} % Opening greeting
-%\closing{Sincerely yours,} % Closing phrase
-%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
-
-%\makelettertitle % Print letter title
-
-%\lipsum[1-3] % Dummy text
-
-%\makeletterclosing % Print letter signature
-
-%----------------------------------------------------------------------------------------
 
 \end{document}
